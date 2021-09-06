@@ -14,9 +14,9 @@ function generateString(length) {
     password = '';
     var charactersLength = characters.length;
     for ( var i = 0; i < length; i++ ) {
-        result += characters.charAt(Math.floor(Math.random() * charactersLength));
+        password += characters.charAt(Math.floor(Math.random() * charactersLength));
     }
-    return result;
+    return password;
 }
 console.log(generateString(stringLength));
 window.alert(password)
