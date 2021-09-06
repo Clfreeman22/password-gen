@@ -5,7 +5,7 @@
 var generateBtn = document.querySelector("#generate");
 
 // Write password to the #password input
-function writePassword() {
+function writePassword() { 
   var password = generatePassword();
   var passwordText = document.querySelector("#password");
 
@@ -15,3 +15,4 @@ function writePassword() {
 
 // Add event listener to generate button
 generateBtn.addEventListener("click", writePassword);
+var list = crypto.getRandomValues
