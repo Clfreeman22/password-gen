@@ -8,7 +8,7 @@ function selectLength() {
         return selectLength();    
     }
 }
-selectLength();
+
 
 function generateString(length) {
     password = '';
